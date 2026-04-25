@@ -122,7 +122,7 @@ public class AgeCheck {
         }
     }
 }
-<img width="757" height="583" alt="Screenshot 2026-04-25 181456" src="https://github.com/user-attachments/assets/9b91ea22-efa5-46d0-ac82-8c5c54669b46" />
+<img width="924" height="117" alt="Screenshot 2026-04-25 180914" src="https://github.com/user-attachments/assets/482e0e37-4336-4222-8e1e-28b22f5ae615" />
 
 ```
 </details>
