@@ -122,8 +122,8 @@ public class AgeCheck {
         }
     }
 }
-![Output](Java/Screenshot%202026-04-25%20180914.png)
 ```
+
 </details>
 
 ## File: Array.java
@@ -177,9 +177,10 @@ public class Array {
         obj.reverse();
     }
 }
-<img width="766" height="221" alt="image" src="https://github.com/user-attachments/assets/eea24cb3-f897-4361-a4f0-72cecabb1699" />
 
 ```
+<img width="766" height="221" alt="image" src="https://github.com/user-attachments/assets/eea24cb3-f897-4361-a4f0-72cecabb1699" />
+
 </details>
 
 ## File: Cal1.java
