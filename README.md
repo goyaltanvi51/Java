@@ -122,8 +122,7 @@ public class AgeCheck {
         }
     }
 }
-<img width="924" height="117" alt="Screenshot 2026-04-25 180914" src="https://github.com/user-attachments/assets/482e0e37-4336-4222-8e1e-28b22f5ae615" />
-
+![Output](Java/Screenshot%202026-04-25%20180914.png)
 ```
 </details>
 
