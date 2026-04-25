@@ -1,3 +1,5 @@
+<img width="924" height="117" alt="Screenshot 2026-04-25 180914" src="https://github.com/user-attachments/assets/40e924d0-dd88-41f5-8003-a064335d0d18" />
+<img width="924" height="117" alt="Screenshot 2026-04-25 180914" src="https://github.com/user-attachments/assets/c383b8b5-ec7d-4d6f-852b-2631c857da28" />
 ## File: Message.java
 <details><summary>Click to view code</summary>
 
@@ -123,6 +125,7 @@ public class AgeCheck {
     }
 }
 ```
+<img width="924" height="117" alt="Screenshot 2026-04-25 180914" src="https://github.com/user-attachments/assets/0aef53f1-dbbe-4ff9-8161-4f1ad7d842d1" />
 
 </details>
 
@@ -220,9 +223,10 @@ public class Cal1 {
         System.out.println("Div = " + c.div(10, 5));
     }
 }
+```
+
 <img width="642" height="136" alt="image" src="https://github.com/user-attachments/assets/a69ded35-2fd8-4e22-853b-bd6ce7c598db" />
 
-```
 </details>
 
 ## File: CalculatorGUI.java
@@ -299,9 +303,10 @@ public class CalculatorGUI extends JFrame implements ActionListener {
         new CalculatorGUI();
     }
 }
+```
+
 <img width="428" height="359" alt="image" src="https://github.com/user-attachments/assets/be7c4495-e38e-4167-a1aa-9c81b48fe997" />
 
-```
 </details>
 
 ## File: CProgram.java
@@ -423,9 +428,10 @@ public class CProgram {
         }
     }
 }
+```
+
 <img width="664" height="249" alt="image" src="https://github.com/user-attachments/assets/1f87782c-5650-4a00-b51f-42714782df2d" />
 
-```
 </details>
 
 ## File: Distance_add.java
@@ -465,9 +471,11 @@ public class Distance_add {
         result.display();
     }
 }
+```
+
 <img width="847" height="47" alt="image" src="https://github.com/user-attachments/assets/84b654d9-ecf7-4e17-9852-460687232e8d" />
 
-```
+
 </details>
 
 ## File: Distance_add2.java
@@ -505,9 +513,10 @@ public class Distance_add2 {
         result.display();
     }
 }
+```
+
 <img width="797" height="40" alt="image" src="https://github.com/user-attachments/assets/f634cbf5-e3d4-4f18-8418-92c3cc1aa1a6" />
 
-```
 </details>
 
 ## File: e1.java
@@ -534,9 +543,11 @@ public class Exception{
         }
     }
 }
+```
+
 <img width="793" height="77" alt="image" src="https://github.com/user-attachments/assets/bbca7f2b-0a6c-4659-9626-da4a8b9ea0e4" />
 
-```
+
 </details>
 
 ## File: Matrix1.java
@@ -606,9 +617,10 @@ public class Matrix1 {
         m.diagonalSum();
     }
 }
+```
+
 <img width="718" height="267" alt="image" src="https://github.com/user-attachments/assets/f644bfe4-3720-4b16-bc54-3023b33f1d82" />
 
-```
 </details>
 
 ## File: MatrixAddition.java
@@ -731,9 +743,10 @@ public class MatrixAddition extends JFrame implements ActionListener {
         new MatrixAddition();
     }
 }
+```
+
 <img width="740" height="729" alt="image" src="https://github.com/user-attachments/assets/f8c18a7e-8a56-4c90-bcee-1f4cdc73da02" />
 
-```
 </details>
 
 ## File: Paint.java
@@ -800,9 +813,11 @@ public class Paint extends JFrame implements MouseMotionListener, ActionListener
         new Paint(); // run program
     }
 }
+```
+
 <img width="715" height="556" alt="image" src="https://github.com/user-attachments/assets/a72fda55-a5dc-4ac7-856e-c6d5feafcfa9" />
 
-```
+
 </details>
 
 ## File: Shapes.java
@@ -920,9 +935,10 @@ class AddSwing extends JFrame implements ActionListener {
         new AddSwing(); // object creation
     }
 }
+```
+
 <img width="413" height="258" alt="image" src="https://github.com/user-attachments/assets/c6a63748-f941-46f8-927c-ec47de63389b" />
 
-```
 </details>
 
 ## File: TestPackage.java
@@ -947,9 +963,11 @@ public class TestPackage {
         msg.show();
     }
 }
+```
+
 <img width="690" height="136" alt="image" src="https://github.com/user-attachments/assets/3f03f405-e764-4f87-a29b-32ba854cc43c" />
 
-```
+
 </details>
 
 ## File: TestSubPackage.java
@@ -967,9 +985,11 @@ public class TestSubPackage {
         m.show();
     }
 }
+```
+
 <img width="860" height="68" alt="image" src="https://github.com/user-attachments/assets/31fe1b5b-ac36-4db9-af95-b18ab22c4713" />
 
-```
+
 </details>
 
 ## File: Threading.java
@@ -1026,9 +1046,11 @@ public class Threading {
         r3.start();
     }
 }
+```
+
 <img width="1224" height="464" alt="image" src="https://github.com/user-attachments/assets/d6347cea-b103-497f-8b64-745caf823740" />
 
-```
+
 </details>
 
 ## File: Time_add1.java
@@ -1063,9 +1085,11 @@ public class Time_add1 {
         t3.display();
     }
 }
+```
+
 <img width="705" height="55" alt="image" src="https://github.com/user-attachments/assets/fa4c3aee-7042-49ce-a368-0b59f45b814f" />
 
-```
+
 </details>
 
 ## File: Time_add2.java
@@ -1098,9 +1122,11 @@ public class Time_add2{
         t3.display();
     }
 }
+```
+
 <img width="776" height="59" alt="image" src="https://github.com/user-attachments/assets/b4eeaa13-c31e-4d0a-8edb-dd0d4809227c" />
 
-```
+
 </details>
 
 ## File: UsingSynchro.java
@@ -1144,9 +1170,10 @@ public class UsingSynchro {
         }
     }
 }
+```
+
 <img width="1216" height="324" alt="image" src="https://github.com/user-attachments/assets/336c792e-b655-47ab-9ed3-e6948e00ab0e" />
 
-```
 </details>
 
 
