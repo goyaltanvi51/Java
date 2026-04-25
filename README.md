@@ -1324,7 +1324,7 @@ public class Interface {
 </details>
 
 
-## File: Abstract.java
+## File: A1.java
 <details><summary>Click to view code</summary>
 ```java
 abstract class Animal {
@@ -1340,7 +1340,7 @@ class Cat extends Animal {
     }
 }
 
-public class Abstract {
+public class A1 {
     public static void main(String[] args) {
         Cat c = new Cat();
         c.sound();
