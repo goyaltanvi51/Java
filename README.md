@@ -1174,6 +1174,193 @@ public class UsingSynchro {
 
 </details>
 
+## File: FileExample1.java
+<details><summary>Click to view code</summary>
+
+```java
+import java.io.FileWriter;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class FileExample {
+    public static void main(String[] args) {
+        try {
+            // Writing to file
+            FileWriter fw = new FileWriter("charfile.txt");
+            fw.write("Hello Java");
+            fw.close();
+
+            // Reading from file
+            FileReader fr = new FileReader("charfile.txt");
+            int ch;
+            while ((ch = fr.read()) != -1) {
+                System.out.print((char) ch);
+            }
+            fr.close();
+
+        } catch (IOException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
+}
+```
+<img width="769" height="78" alt="image" src="https://github.com/user-attachments/assets/2f4f6c1d-79e7-4446-82cf-e52f00d1db03" />
+
+</details>
+
+## File: ByteFileExample.java
+<details><summary>Click to view code</summary>
+
+```java
+import java.io.*;
+
+public class ByteFileExample {
+    public static void main(String[] args) {
+        try {
+            // Step 1: Write to file
+            FileOutputStream fos = new FileOutputStream("bytefile.txt");
+            fos.write("Hello".getBytes());
+            fos.close();
+
+            // Step 2: Read from file
+            FileInputStream fis = new FileInputStream("bytefile.txt");
+            int b;
+            while ((b = fis.read()) != -1) {
+                System.out.print((char) b);
+            }
+            fis.close();
+
+        } catch (IOException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
+}
+```
+<img width="847" height="51" alt="image" src="https://github.com/user-attachments/assets/e419acdd-31ad-4b4d-9a93-dc54ef287307" />
+
+</details>
+
+## File: CopyFile.java
+<details><summary>Click to view code</summary>
+
+```java
+import java.io.*;
+
+public class CopyFile {
+    public static void main(String[] args) {
+        try {
+            FileReader fr = new FileReader("source.txt");
+            FileWriter fw = new FileWriter("dest.txt");
+
+            int ch;
+            while ((ch = fr.read()) != -1) {
+                fw.write(ch);
+            }
+
+            fr.close();
+            fw.close();
+
+            System.out.println("File copied successfully");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+<img width="810" height="75" alt="image" src="https://github.com/user-attachments/assets/780940c9-0de8-4bfa-9cdc-ebfe130affd5" />
+```
+</details>
+
+## File: CopyByteFile.java
+<details><summary>Click to view code</summary>
+
+```java
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class CopyByteFile {
+    public static void main(String[] args) {
+        try {
+            FileInputStream fis = new FileInputStream("source.txt");
+            FileOutputStream fos = new FileOutputStream("dest.txt");
+            int b;
+            while ((b = fis.read()) != -1) {
+                fos.write(b);
+            }
+            fis.close();
+            fos.close();
+            System.out.println("File copied successfully");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+<img width="843" height="68" alt="image" src="https://github.com/user-attachments/assets/78b91cb6-37e2-453d-913c-1eb4dcb1b02d" />
+</details>
+
+## File: Interface.java
+<details><summary>Click to view code</summary>
+
+```java
+interface Animal {
+    void sound();   // abstract method
+}
+class Dog implements Animal {
+    public void sound() {
+        System.out.println("Dog barks");
+    }
+}
+public class Interface {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.sound();
+    }
+}
+```
+<img width="779" height="53" alt="image" src="https://github.com/user-attachments/assets/ffebce0b-0d35-463c-a4f4-42be47df1f65" />
+```
+</details>
+
+
+## File: Abstract.java
+<details><summary>Click to view code</summary>
+```java
+abstract class Animal {
+    abstract void sound();   // abstract method
+
+    void sleep() {           // normal method
+        System.out.println("Sleeping...");
+    }
+}
+class Cat extends Animal {
+    void sound() {
+        System.out.println("Cat meows");
+    }
+}
+
+public class Abstract {
+    public static void main(String[] args) {
+        Cat c = new Cat();
+        c.sound();
+        c.sleep();
+    }
+}
+```
+<img width="753" height="74" alt="image" src="https://github.com/user-attachments/assets/9d62dc84-f367-422d-86b6-12e6d9beba1b" />
+
+</details>
+
+
+
+
+
+
+
+
+
+
 
 
 
