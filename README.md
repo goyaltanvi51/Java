@@ -1,5 +1,3 @@
-<img width="924" height="117" alt="Screenshot 2026-04-25 180914" src="https://github.com/user-attachments/assets/40e924d0-dd88-41f5-8003-a064335d0d18" />
-<img width="924" height="117" alt="Screenshot 2026-04-25 180914" src="https://github.com/user-attachments/assets/c383b8b5-ec7d-4d6f-852b-2631c857da28" />
 ## File: Message.java
 <details><summary>Click to view code</summary>
 
