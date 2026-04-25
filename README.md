@@ -1320,12 +1320,11 @@ public class Interface {
 }
 ```
 <img width="779" height="53" alt="image" src="https://github.com/user-attachments/assets/ffebce0b-0d35-463c-a4f4-42be47df1f65" />
-```
 </details>
 
-
-## File: A1.java
+## File: Interface.java
 <details><summary>Click to view code</summary>
+
 ```java
 abstract class Animal {
     abstract void sound();   // abstract method
@@ -1334,13 +1333,14 @@ abstract class Animal {
         System.out.println("Sleeping...");
     }
 }
+
 class Cat extends Animal {
     void sound() {
         System.out.println("Cat meows");
     }
 }
 
-public class A1 {
+public class Abstract{
     public static void main(String[] args) {
         Cat c = new Cat();
         c.sound();
@@ -1348,13 +1348,9 @@ public class A1 {
     }
 }
 ```
-<img width="753" height="74" alt="image" src="https://github.com/user-attachments/assets/9d62dc84-f367-422d-86b6-12e6d9beba1b" />
+<img width="753" height="74" alt="Screenshot 2026-04-25 192430" src="https://github.com/user-attachments/assets/d6a19759-b8e5-4d8c-885c-1c557beb47c0" />
 
 </details>
-
-
-
-
 
 
 
