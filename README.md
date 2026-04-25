@@ -122,6 +122,8 @@ public class AgeCheck {
         }
     }
 }
+![Screenshot 2026-04-25 181131.png](Screenshot 2026-04-25 181131.png)
+
 ```
 </details>
 
